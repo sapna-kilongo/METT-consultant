@@ -20,7 +20,7 @@ app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'hbs');
 
 // routes
-app.use('/', home);
+app.use('/METT', home);
 
 
 
